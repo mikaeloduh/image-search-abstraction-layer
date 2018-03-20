@@ -1,24 +1,20 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "my-glitch-app",
+  "name": "image-search-abstraction-layer",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.3",
     "body-parser": "^1.18.2",
-    "mongoose": "^5.0.10",
-    "node-bing-api": "^3.2.2"
+    "mongodb": "^3.0.4"
   },
   "engines": {
     "node": "9.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/my-glitch-app"
+    "url": "https://github.com/mikaeloduh/image-search-abstraction-layer"
   },
   "license": "MIT",
   "keywords": [

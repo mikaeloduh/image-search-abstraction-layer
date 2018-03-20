@@ -55,7 +55,7 @@ let bing_img = function(app, history) {
     }
     
     // Request search query
-    app.get("/test/:query", bing_web_search);
+    app.get("/image/:query", bing_web_search);
   
     // View search history
     app.get("/last", (request, response) => {

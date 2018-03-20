@@ -2,7 +2,7 @@
 const express     = require('express'),
       bodyParser  = require("body-parser"),
       mongodb     = require("mongodb"),
-      bingImg     = require("./app/bing_web_search.js");
+      bingImg     = require("./app/bing_image_search.js");
 
 const mongoClient = mongodb.MongoClient;
 const app = express();
