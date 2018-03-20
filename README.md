@@ -7,12 +7,12 @@
 #### Usage: search images
 
 ```
-https://easy-road.glitch.me/test/banana?offset=0
+https://easy-road.glitch.me/image/SEARCHTERM?offset=0
 ```
 
 #### Usage: browse recent search
 
 ```
-https://easy-road.glitch.me/test/last
+https://easy-road.glitch.me/last
 ```
 
